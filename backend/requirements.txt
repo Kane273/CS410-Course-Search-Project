@@ -1,0 +1,5 @@
+flask
+pymupdf
+rank-bm25
+scikit-learn
+numpy

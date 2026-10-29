@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Raw course data
+data/raw/*
+!data/raw/transcripts/
+!data/raw/books/
+!data/raw/transcripts/.gitkeep
+!data/raw/books/.gitkeep
+
+# Generated data
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated models/indexes
+*.npy
+*.pkl
+*.index
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
